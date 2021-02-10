@@ -34,6 +34,6 @@
 #  weight = 20
 
 # [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 10
+  # name = "License"
+  # url = "LICENSE"
+  # weight = 10
