@@ -1,24 +1,18 @@
 [[docs]]
-  name = "Prologue"
-  weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
-
-[[docs]]
-  name = "Help"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
+  name = "MinerWrangler"
+  # weight = 60
+  identifier = "minerwrangler"
+  url = "/docs/minerwrangler/"
 
 [[main]]
   name = "Docs"
-  url = "/docs/prologue/introduction/"
+  url = "/docs/minerwrangler/"
   weight = 10
 
 [[main]]
   name = "Blog"
   url = "/blog/"
-  weight = 20
+  # weight = 20
 
 # [[social]]
 #   name = "Twitter"
