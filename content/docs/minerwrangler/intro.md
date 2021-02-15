@@ -21,6 +21,7 @@ MinerWrangler is the ultimate bundle of bash scripts to ease your way into crypt
 - [x] Simple and intuitive to use
 - [x] Support for the latest & greatest version of Ubuntu Server LTS
 - [x] Firewall is enabled by default
+- [x] Only a keyboard is required for initial install
 
 ## Tested on
 * **GPUs**

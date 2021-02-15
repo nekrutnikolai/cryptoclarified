@@ -32,7 +32,7 @@ And after a few minutes, it should be done. Eject it out of the computer, and pl
 
 Turn on the rig, and press f12 when the Dell logo appears. select usb device, and boot from that.
 
-It will check it's integrity, which may take a few minutes.
+It will check it's integrity, which may take a few minutes. Any errors that appear may be ignored.
 
 It will ask you your language, hit enter. Next, the keyboard layout, proceed to the next screen by pressing enter.
 
@@ -44,9 +44,9 @@ At the **SSH Setup**, make sure that the Install OpenSSH server is checked. Leav
 
 **Featured Server Snaps** leave all of these blank.
 
-Finally, you will be greeted at the **Installing system** menu. Go on a walk, grab a cup of tea, or check out another article on this website while you wait for it to isntall. **Check out my photo gallery while you're at it** It'll take a while, typically 10-15 minutes on my rigs.
+Finally, you will be greeted at the **Installing system** menu. Go on a walk, grab a cup of tea, or check out another article on this website while you wait for it to install. **Check out my photo gallery while you're at it** It'll take a while, typically 10-15 minutes on my rigs. Press reboot now.
 
-- [ ] It will give you a prompt in scary red letters: [FAILED] Failed unmounting /cdrom. Just remove the flash drive, and press enter to reboot.
+- [ ] It will give you a prompt in scary red letters: [FAILED] Failed unmounting /cdrom. Remove the flash drive, **AND THE DISPLAY CABLE FROM THE GPU** and press enter to reboot.
 
 Give it a minute, or two, or three to set up everything. It is it's first boot, afterall.
 
@@ -79,5 +79,9 @@ git clone https://github.com/NikolaiTeslovich/minerwrangler.git && cd minerwrang
 ```
 
 Trouble-shooting: `ps aux | grep auth`
+
+`cd minerwrangler && sudo ./install2.sh`
+
+`cd minerwrangler && sudo ./config.sh`
 
 This thread was very helpful aswell: https://gist.github.com/bsodmike/369f8a202c5a5c97cfbd481264d549e9
