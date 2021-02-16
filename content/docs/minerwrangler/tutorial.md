@@ -16,25 +16,26 @@ toc: true
 
 
 ## Preliminary setup
-- [x] static ip set on your router for the rig
 
-**Make sure your rig's bios is updated to the latest version**. If you happen to be using a super old computer like I am, I found [this to be helpful](https://askubuntu.com/questions/46886/how-to-create-a-bootable-usb-stick-to-flash-a-bios).
-
-Prepare a usb installation media, like a usb flash drive (min 4GB).
-
-[Ubuntu 20.04.2 Server](https://ubuntu.com/download/server)
-
-I recommend using [balenaEtcher](https://www.balena.io/etcher/) as an installation disk creator.
-
-And after a few minutes, it should be done. Eject it out of the computer, and plug it into your rig.
+- Static ip set for the rig.
+- Rig's bios updated to the latest version (found this [this to be helpful](https://askubuntu.com/questions/46886/how-to-create-a-bootable-usb-stick-to-flash-a-bios) for an old computer).
+- Have a USB drive handy.
 
 ## Installing and configuring Ubuntu Server
 
-Turn on the rig, and press f12 when the Dell logo appears. select usb device, and boot from that.
+Download [Ubuntu 20.04.2 Server](https://ubuntu.com/download/server)
 
-It will check it's integrity, which may take a few minutes. Any errors that appear may be ignored.
+Create an installation disk with the Ubuntu Server image. I recommend using [balenaEtcher](https://www.balena.io/etcher/).
 
-It will ask you your language, hit enter. Next, the keyboard layout, proceed to the next screen by pressing enter.
+{{<figure src="/images/thumb1.jpeg" alt="Hello Friend" position="center" caption="" titlePosition="center" width="640">}}
+
+After it finishes, eject it out of your the computer, and plug it into your rig.
+
+Turn on the rig, and boot into bootloader mode, usually f10 or f12 for a Dell motherboard. Select USB device, and boot from that.
+
+The USB will check it's integrity, which may take a few minutes.
+
+A series of menus will appear. Use the arrow keys and enter key to navigate. Leave everything as default until   and ask you your language, hit enter. Next, the keyboard layout, proceed to the next screen by pressing enter.
 
 Skip through the **Network connections**, **Configure Proxy menus** and **Configure Ubuntu archive mirror** by proceeding with enter. For the Guided storage configuration, unless you plan to do something else with your rig, leave the defaults and use the arrow keys to reach the Done button. Press enter. Skip through the **Storage configuration** menu. Select continue at the **Confirm destructive action** prompt.
 
@@ -64,7 +65,7 @@ Paste this into the terminal:
 ssh <usr>@<ip>
 ```
 
-In the terminal, type``.
+In the terminal, type.
 
 If it prompts you about if you actually want to connect to it, type yes.
 
@@ -72,10 +73,11 @@ Type in your rig's passwd to connect.
 
 Next, while connected to your rig, paste in this piece of code and hit enter:
 
-{{< btn-copy text="git clone https://github.com/NikolaiTeslovich/minerwrangler.git && cd minerwrangler && chmod +x install.sh && sudo ./install.sh" >}}
+{{< btn-copy text="git clone https://github.com/NikolaiTeslovich/minerwrangler.git && cd minerwrangler && chmod +x install1.sh && sudo ./install1.sh" >}}
 
 ```bash
-git clone https://github.com/NikolaiTeslovich/minerwrangler.git && cd minerwrangler && chmod +x install.sh && sudo ./install.sh
+git clone https://github.com/NikolaiTeslovich/minerwrangler.git
+&& cd minerwrangler && chmod +x install1.sh && sudo ./install1.sh
 ```
 
 Trouble-shooting: `ps aux | grep auth`
