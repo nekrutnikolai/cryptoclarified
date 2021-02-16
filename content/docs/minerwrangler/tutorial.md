@@ -27,7 +27,7 @@ Download the latest version of [Ubuntu Server LTS](https://ubuntu.com/download/s
 
 Create an installation disk with the Ubuntu Server image. I recommend using [balenaEtcher](https://www.balena.io/etcher/).
 
-{{<figure src="/images/thumb1.jpeg" alt="Hello Friend" position="center" caption="" titlePosition="center" width="640">}}
+{{<figure src="/images/thumb1.jpeg" alt="Hello Friend" position="center" caption="" titlePosition="center" width="650">}}
 
 After it finishes, eject it out of your the computer, and plug it into your rig.
 

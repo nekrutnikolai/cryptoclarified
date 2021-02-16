@@ -15,8 +15,6 @@ toc: true
 
 ## Installation and configuration
 
-{{<figure src="/images/wrangler1.gif" alt="terminalgif" position="center" caption="" titlePosition="center" width="650">}}
-
 SSH into your rig:
 
 {{< btn-copy text="ssh rigusr@rigip" >}}
@@ -36,13 +34,16 @@ git clone https://github.com/NikolaiTeslovich/minerwrangler.git
 && cd minerwrangler && chmod +x install1.sh && sudo ./install1.sh
 ```
 
-After your rig reboots it will disconnect. SSH into it again and run the second installation script:
+{{<figure src="/images/wrangler1.gif" alt="terminalgif" position="center" caption="" titlePosition="center" width="650">}}
+
+After your rig reboots it will disconnect. SSH into it again and run the second installation script. **Select lightdm as the default display manager**:
 
 {{< btn-copy text="cd minerwrangler && sudo ./install2.sh" >}}
 
 ```bash
 cd minerwrangler && sudo ./install2.sh
 ```
+{{<figure src="/images/wrangler2.gif" alt="terminalgif" position="center" caption="" titlePosition="center" width="650">}}
 
 Then, after yet another reboot, run the configuration script:
 
