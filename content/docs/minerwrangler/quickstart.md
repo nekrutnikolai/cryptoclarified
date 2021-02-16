@@ -52,6 +52,9 @@ Then, after yet another reboot, run the configuration script:
 ```bash
 cd minerwrangler && ./config.sh
 ```
+
+{{<figure src="/images/wrangler3.gif" alt="terminalgif" position="center" caption="" titlePosition="center" width="650">}}
+
 ## Overclocking, power & fan control
 
 Almost there! Overclock, change the power limit and fan speeds of the graphics cards by using nano to modify the clockfan.sh script to your needs:
