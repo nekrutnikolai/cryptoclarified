@@ -15,6 +15,8 @@ toc: true
 
 ## Installation and configuration
 
+{{<figure src="/images/wrangler1.gif" alt="terminalgif" position="center" caption="" titlePosition="center" width="650">}}
+
 SSH into your rig:
 
 {{< btn-copy text="ssh rigusr@rigip" >}}
