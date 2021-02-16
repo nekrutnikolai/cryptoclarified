@@ -1,7 +1,7 @@
 ---
 title: "Tutorial"
-description: "An in-depth tutorial for Linux novices."
-lead: "An in-depth tutorial for Linux novices."
+description: "An in-depth MinerWrangler tutorial for Linux novices."
+lead: "An in-depth MinerWrangler tutorial for Linux novices."
 date: 2021-02-10T17:15:46-05:00
 lastmod: 2021-02-10T17:15:46-05:00
 draft: false
