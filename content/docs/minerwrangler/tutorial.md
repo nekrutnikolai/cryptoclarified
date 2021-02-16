@@ -13,7 +13,7 @@ weight: 999
 toc: true
 ---
 
-
+# Still in Progress
 
 ## Preliminary setup
 
@@ -23,7 +23,7 @@ toc: true
 
 ## Installing and configuring Ubuntu Server
 
-Download [Ubuntu 20.04.2 Server](https://ubuntu.com/download/server)
+Download the latest version of [Ubuntu Server LTS](https://ubuntu.com/download/server).
 
 Create an installation disk with the Ubuntu Server image. I recommend using [balenaEtcher](https://www.balena.io/etcher/).
 

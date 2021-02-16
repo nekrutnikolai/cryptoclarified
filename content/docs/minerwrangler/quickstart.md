@@ -104,4 +104,4 @@ Speaking words of wisdom, let it mine peacefully (exit the ssh session):
 exit
 ```
 
-Some resources regarding screen: [Basic screen usage](https://linuxize.com/post/how-to-use-linux-screen/), [Screen User's Manual](https://www.gnu.org/software/screen/manual/screen.html).
+Some resources regarding screen: [How To Use Linux Screen](https://linuxize.com/post/how-to-use-linux-screen/), [Screen User's Manual](https://www.gnu.org/software/screen/manual/screen.html).
