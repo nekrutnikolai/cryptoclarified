@@ -18,10 +18,15 @@ MinerWrangler is the ultimate bundle of bash scripts to ease your way into crypt
 ## Features
 - [x] One line to install
 - [x] Full control over your rig(s)
+- [x] Integrated with [OhGodAnETHlargementPill](https://github.com/admin-ipfs/OhGodAnETHlargementPill) (1080, 1080Ti & TITAN Xp—GDDR5X GPUs)
+> "ED (Ethereum Dysfunction) affects 1 in 10 NVIDIA GPUs in North America"
+
 - [x] Simple and intuitive to use
 - [x] Support for the latest & greatest version of Ubuntu Server LTS
 - [x] Firewall is enabled by default
 - [x] Only a keyboard is required for initial install
+- [x] Beautiful CLI
+
 
 ## Tested on
 * **GPUs**
@@ -29,6 +34,7 @@ MinerWrangler is the ultimate bundle of bash scripts to ease your way into crypt
   * RTX 2080
 * **Driver version**
   * nvidia-driver-440
+  * nvidia-driver-460 (default)
 
 ## To do
 * Write a usage guide

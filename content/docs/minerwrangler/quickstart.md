@@ -34,7 +34,7 @@ git clone https://github.com/NikolaiTeslovich/minerwrangler.git
 && cd minerwrangler && chmod +x install1.sh && sudo ./install1.sh
 ```
 
-After your rig reboots, run the second installation script:
+After your rig reboots it will disconnect. SSH into it again and run the second installation script:
 
 {{< btn-copy text="cd minerwrangler && sudo ./install2.sh" >}}
 
@@ -72,7 +72,7 @@ sudo ./clockfan.sh && ./mine.sh
 ```
 ## If you have the ETHlargementPill
 
-**If you have the pill installed** (viagra for GTX 1080, GTX 1080Ti & TITAN Xp ), you need to enter that screen and type in your sudo password (once the mine.sh script has already started):
+If you have the pill installed—*viagra* for the GTX 1080, GTX 1080Ti & TITAN Xp (GDDR5X)—you need to enter that screen and type in your sudo password (once the mine.sh script has already started):
 
 {{< btn-copy text="screen -R pill" >}}
 
