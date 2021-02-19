@@ -23,9 +23,9 @@ SSH into your rig:
 ssh rigusr@ipaddress
 ```
 
-Obviously replace *rigusr* with the username of the server and the *rigip* with the ip of the rig.
+Obviously replace ***rigusr*** with the username of the server and the ***rigip*** with the ip of the rig.
 
-Run the first installation script:
+Download and run the first installation script:
 
 {{< btn-copy text="git clone https://github.com/NikolaiTeslovich/minerwrangler.git && cd minerwrangler && chmod +x install1.sh && sudo ./install1.sh" >}}
 
@@ -65,7 +65,7 @@ Almost there! Overclock, change the power limit and fan speeds of the graphics c
 nano clockfan.sh
 ```
 
-A script to overclock will be coming soon.
+After you are done making changes, exit with ***Ctrl-X*** followed by ***Y*** to save changes. A script to overclock is on the way.
 
 ## Start mining
 
@@ -76,6 +76,9 @@ At last, start mining with the mine.sh script. Don't forget to run the clockfan.
 ```bash
 sudo ./clockfan.sh && ./mine.sh
 ```
+
+The clockfan script requires sudo permissions to overclock.
+
 ## If you have the ETHlargementPill
 
 If you have the pill installed—*viagra* for the GTX 1080, GTX 1080Ti & TITAN Xp (GDDR5X)—you need to enter that screen and type in your sudo password (once the mine.sh script has already started):
@@ -86,7 +89,7 @@ If you have the pill installed—*viagra* for the GTX 1080, GTX 1080Ti & TITAN X
 screen -R pill
 ```
 
-Exit the screen using *Ctrl-A* followed by *D*.
+Exit the screen using ***Ctrl-A*** followed by ***D***.
 
 ## See that hashrate
 
@@ -98,7 +101,7 @@ I'm sure you want to see your hashrate:
 screen -R eth
 ```
 
-Exit the screen using *Ctrl-A* followed by *D*.
+Exit the screen using ***Ctrl-A*** followed by ***D***.
 
 ## Let it be
 
