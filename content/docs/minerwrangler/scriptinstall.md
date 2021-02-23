@@ -1,7 +1,7 @@
 ---
-title: "Quick Start"
-description: "brief tutorial on installing and configuring MinerWrangler."
-lead: "For users experienced with Linux."
+title: "Script Install & Config"
+description: "Configuration and installation of MinerWrangler."
+lead: "Configuring and installing the MinerWrangler scripts."
 date: 2021-02-10T17:07:23-05:00
 lastmod: 2021-02-10T17:07:23-05:00
 draft: false
@@ -14,6 +14,8 @@ toc: true
 ---
 
 ## Installation and configuration
+
+Open your equivalent of the Terminal. I recommend iTerm for mac users, but the plain Terminal should work just fine.
 
 SSH into your rig:
 
