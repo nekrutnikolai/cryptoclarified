@@ -39,7 +39,7 @@ lqipWidth = "20x"
 footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
 
 # Alert
-alert = true
+alert = false
 alertText = "Enjoying this website? <a class=\"alert-link\" href=\"https://github.com/NikolaiTeslovich/cryptoclarified/stargazers\">Star on GitHub</a>. Thanks!</a>"
 
 # Edit Page
