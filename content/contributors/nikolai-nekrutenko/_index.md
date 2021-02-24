@@ -7,6 +7,6 @@ draft: false
 images: []
 ---
 
-Creator of CryptoClarified. A cryptocurrency advocate and miner since 2017. Currently a non-degree college student at PSU. 
+Creator of CryptoClarified. A cryptocurrency advocate and miner since 2017. Currently a non-degree college student at PSU.
 
-[Website](https://nnekrut.netlify.app/) [Github](https://github.com/NikolaiTeslovich)
+[Website](https://nnekrut.netlify.app/) [GitHub](https://github.com/NikolaiTeslovich)

@@ -13,7 +13,7 @@ weight: 110
 toc: true
 ---
 
-{{<figure src="/images/minerwrangler.png" alt="minerwrangler" position="center" caption="" titlePosition="center" width="650">}}
+{{< img src="minerwrangler.png" alt="MinerWrangler logo" caption="<em>Get it? It's headless!</em>" class="border-0" >}}
 
 MinerWrangler is the ultimate bundle of bash scripts to ease your way into cryptocurrency mining that is open-source and gives you full control over your rigs—by default. No monitor, keyboard, or mouse required. Only NVIDIA support for now.
 
