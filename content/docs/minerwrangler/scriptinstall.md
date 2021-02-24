@@ -70,7 +70,7 @@ nano clockfan.sh
 ```
 I recommend experimenting with the power limit, fan speeds, memory and core clock speeds to find the **highest hash rate**, **yet efficient and stable** settings. The default speeds of +1000Mhz (+500Mhz) memory and +150Mhz core are a good starting point.
 
-Keep in mind that for different algos, different clocks work best. For instance, as Ethash (ETH) is memory-intensive, so increasing memory rather than core yields better results. KawPoW (RVN) is more core intensive, so the opposite would be true.
+Keep in mind that for different algorithms, different overclocks work best. For instance, as Ethash (ETH) is memory-intensive, so increasing memory rather than core yields better results. KawPoW (RVN) is more core intensive, so the opposite would be true.
 
 After you are done making changes, exit with ***Ctrl-X*** followed by ***Y*** to save changes. *A script to overclock is in the works.*
 
