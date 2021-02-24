@@ -1,5 +1,5 @@
 ---
-title: "minerwrangler"
+title: "MinerWrangler"
 description: "MinerWrangler docs"
 lead: ""
 date: 2021-2-10T16:49:15+04:00
