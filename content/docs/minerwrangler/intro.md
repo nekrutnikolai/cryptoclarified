@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "1. Introduction"
 description: "Summary of MinerWrangler"
 lead: "A headless driver installer & crypto miner configurator"
 date: 2020-11-16T13:59:39+01:00

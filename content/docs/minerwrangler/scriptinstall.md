@@ -1,5 +1,5 @@
 ---
-title: "Script Install & Config"
+title: "3. Script Install & Config"
 description: "Configuration and installation of MinerWrangler."
 lead: "Configuring and installing the MinerWrangler scripts."
 date: 2021-02-10T17:07:23-05:00

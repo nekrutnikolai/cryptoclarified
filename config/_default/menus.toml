@@ -5,9 +5,14 @@
   url = "/docs/minerwrangler/"
 
 [[main]]
-  name = "Docs"
+  name = "MinerWrangler"
   url = "/docs/minerwrangler/"
   weight = 10
+
+#[[main]]
+#  name = "Docs"
+#  url = "/docs/"
+#  weight = 10
 
 [[main]]
   name = "Blog"
