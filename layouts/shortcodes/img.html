@@ -24,7 +24,7 @@ https://github.com/ElectricBlocks/electricblocks.github.io/blob/master/layouts/s
 
 <figure{{ with .Get "class" }} class="{{.}}"{{ end }}>
   <a href="{{ $image.Permalink }}">
-    <img class="img-fluid lazyload blur-up" data-sizes="auto" src="{{ $lqip.Permalink }}" data-srcset="{{ $imgSrcSet }}" width="{{ $image.Width }}" height="{{ $image.Height }}" {{ with .Get "alt" }}alt="{{.}}"{{ end }}>
+    <img class="img-simple img-fluid lazyload blur-up" data-sizes="auto" src="{{ $lqip.Permalink }}" data-srcset="{{ $imgSrcSet }}" width="{{ $image.Width }}" height="{{ $image.Height }}" {{ with .Get "alt" }}alt="{{.}}"{{ end }}>
   </a>
   <noscript><img class="img-fluid" sizes="100vw" srcset="{{ $imgSrcSet }}" src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" {{ with .Get "alt" }}alt="{{.}}"{{ end }}></noscript>
   {{ with .Get "caption" }}<figcaption class="figure-caption">{{ . | safeHTML }}</figcaption>{{ end }}

@@ -36,10 +36,8 @@ git clone https://github.com/NikolaiTeslovich/minerwrangler.git
 && cd minerwrangler && chmod +x install1.sh && sudo ./install1.sh
 ```
 
-{{< imgtest src="wrangler1.gif" alt="ssh setup" caption="" class="border-0" >}}
+{{< figure src="../wrangler1.gif" link="../wrangler1.gif"alt="terminal gif 1" position="center" caption="" titlePosition="center" width="100%" >}}
 
-<!-- {{<figure src="/images/wrangler1.gif" alt="terminalgif" position="center" caption="" titlePosition="center" width="650">}}
--->
 After your rig reboots it will disconnect. SSH into it again and run the second install script. **Select lightdm as the default display manager**:
 
 {{< btn-copy text="cd minerwrangler && sudo ./install2.sh" >}}
@@ -47,7 +45,7 @@ After your rig reboots it will disconnect. SSH into it again and run the second 
 ```bash
 cd minerwrangler && sudo ./install2.sh
 ```
-{{<figure src="/images/wrangler2.gif" alt="terminalgif" position="center" caption="" titlePosition="center" width="650">}}
+{{< figure src="../wrangler2.gif" link="../wrangler2.gif" alt="terminal gif 2" position="center" caption="" titlePosition="center" width="100%" >}}
 
 Then, after yet another reboot, run the configuration script:
 
@@ -57,7 +55,7 @@ Then, after yet another reboot, run the configuration script:
 cd minerwrangler && ./config.sh
 ```
 
-{{<figure src="/images/wrangler3.gif" alt="terminalgif" position="center" caption="" titlePosition="center" width="650">}}
+{{< figure src="../wrangler3.gif" link="../wrangler3.gif" alt="terminal gif 3" position="center" caption="" titlePosition="center" width="100%" >}}
 
 By default, the script is setup to mine at the [ethermine.org](https://ethermine.org/) pool.
 
