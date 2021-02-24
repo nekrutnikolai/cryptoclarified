@@ -15,7 +15,7 @@ toc: true
 
 ## Installation and configuration
 
-Open your equivalent of the Terminal. I recommend iTerm for mac users, but the plain Terminal should work just fine.
+Open your equivalent of Terminal. I recommend [iTerm2](https://iterm2.com/) for MacOS users.
 
 SSH into your rig:
 
@@ -25,9 +25,9 @@ SSH into your rig:
 ssh rigusr@ipaddress
 ```
 
-Obviously replace ***rigusr*** with the username of the server and the ***rigip*** with the ip of the rig.
+Replace ***rigusr*** with the username of the server and the ***rigip*** with the ip of the rig.
 
-Download and run the first installation script:
+Download and run the first *MinerWrangler* install script:
 
 {{< btn-copy text="git clone https://github.com/NikolaiTeslovich/minerwrangler.git && cd minerwrangler && chmod +x install1.sh && sudo ./install1.sh" >}}
 
@@ -38,7 +38,7 @@ git clone https://github.com/NikolaiTeslovich/minerwrangler.git
 
 {{<figure src="/images/wrangler1.gif" alt="terminalgif" position="center" caption="" titlePosition="center" width="650">}}
 
-After your rig reboots it will disconnect. SSH into it again and run the second installation script. **Select lightdm as the default display manager**:
+After your rig reboots it will disconnect. SSH into it again and run the second install script. **Select lightdm as the default display manager**:
 
 {{< btn-copy text="cd minerwrangler && sudo ./install2.sh" >}}
 
@@ -57,6 +57,8 @@ cd minerwrangler && ./config.sh
 
 {{<figure src="/images/wrangler3.gif" alt="terminalgif" position="center" caption="" titlePosition="center" width="650">}}
 
+By default, the script is setup to mine at the [ethermine.org](https://ethermine.org/) pool.
+
 ## Overclocking, power & fan control
 
 Almost there! Overclock, change the power limit and fan speeds of the graphics cards by using nano to modify the clockfan.sh script to your needs:
@@ -66,8 +68,11 @@ Almost there! Overclock, change the power limit and fan speeds of the graphics c
 ```bash
 nano clockfan.sh
 ```
+I recommend experimenting with the power limit, fan speeds, memory and core clock speeds to find the **highest hash rate**, **yet efficient and stable** settings. The default speeds of +1000Mhz (+500Mhz) memory and +150Mhz core are a good starting point.
 
-After you are done making changes, exit with ***Ctrl-X*** followed by ***Y*** to save changes. A script to overclock is on the way.
+Keep in mind that for different algos, different clocks work best. For instance, as Ethash (ETH) is memory-intensive, so increasing memory rather than core yields better results. KawPoW (RVN) is more core intensive, so the opposite would be true.
+
+After you are done making changes, exit with ***Ctrl-X*** followed by ***Y*** to save changes. *A script to overclock is in the works.*
 
 ## Start mining
 
@@ -83,7 +88,7 @@ The clockfan script requires sudo permissions to overclock.
 
 ## If you have the ETHlargementPill
 
-If you have the pill installed—*viagra* for the GTX 1080, GTX 1080Ti & TITAN Xp (GDDR5X)—you need to enter that screen and type in your sudo password (once the mine.sh script has already started):
+If you have the OhGodAnETHlargementPill installed for GDDR5X GPUs, you need to enter into that screen and type in your sudo password for the memory timings to take effect:
 
 {{< btn-copy text="screen -R pill" >}}
 
@@ -91,11 +96,11 @@ If you have the pill installed—*viagra* for the GTX 1080, GTX 1080Ti & TITAN X
 screen -R pill
 ```
 
-Exit the screen using ***Ctrl-A*** followed by ***D***.
+Again, exit the screen using ***Ctrl-A*** followed by ***D***.
 
 ## See that hashrate
 
-I'm sure you want to see your hashrate:
+I'm sure you want to see your hashrate (and some other GPU stats):
 
 {{< btn-copy text="screen -R eth" >}}
 
@@ -115,4 +120,6 @@ Speaking words of wisdom, let it mine peacefully (exit the ssh session):
 exit
 ```
 
-Some resources regarding screen: [How To Use Linux Screen](https://linuxize.com/post/how-to-use-linux-screen/), [Screen User's Manual](https://www.gnu.org/software/screen/manual/screen.html).
+## Resources
+
+[How To Use Linux Screen](https://linuxize.com/post/how-to-use-linux-screen/), [Screen User's Manual](https://www.gnu.org/software/screen/manual/screen.html), [How to Use Nano](https://linuxize.com/post/how-to-use-nano-text-editor/).
