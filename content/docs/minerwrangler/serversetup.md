@@ -1,5 +1,5 @@
 ---
-title: "Ubuntu Server Setup"
+title: "Installing Ubuntu Server"
 description: "Installing and configuring Ubuntu Server."
 lead: "Installing and configuring Ubuntu Server."
 date: 2021-02-10T17:15:46-05:00
