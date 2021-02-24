@@ -25,7 +25,7 @@ Download the latest version of [Ubuntu Server LTS](https://ubuntu.com/download/s
 
 Create an installation disk with the Ubuntu Server image. I recommend using [balenaEtcher](https://www.balena.io/etcher/).
 
-{{<figure src="/images/thumb1.jpeg" alt="Hello Friend" position="center" caption="" titlePosition="center" width="650">}}
+{{< img src="thumb1.jpeg" alt="thumb drive" caption="<em></em>" class="border-0" >}}
 
 After it finishes, eject it out of your the computer, and plug it into your rig.
 
@@ -35,27 +35,27 @@ Turn on the rig, and boot into bootloader mode, usually f10 or f12 for a Dell mo
 
 The USB will check it's integrity, which may take a few minutes.
 
-{{<figure src="/images/tutorial/integritycheck.jpeg" alt="removetoboot" position="center" caption="" titlePosition="center" width="650">}}
+{{< img src="integritycheck.jpeg" alt="integrity check" caption="" class="border-0" >}}
 
 A series of menus will appear. **Use the arrow keys and enter key to navigate.**
 
-{{<figure src="/images/tutorial/serverwelcome.jpeg" alt="removetoboot" position="center" caption="" titlePosition="center" width="650">}}
+{{< img src="serverwelcome.jpeg" alt="welcome screen" caption="" class="border-0" >}}
 
-Skip through the ***Network connections***, ***Configure Proxy menus*** and ***Configure Ubuntu archive mirror*** by proceeding with enter. This will leave everything at default. 
+Skip through the ***Network connections***, ***Configure Proxy menus*** and ***Configure Ubuntu archive mirror*** by proceeding with enter. This will leave everything at default.
 
 For the ***Guided storage configuration***, unless you plan to do something else with your rig, leave the defaults and use the arrow keys to reach the Done button, pressing enter to proceed.
 
-{{<figure src="/images/tutorial/guidedstorage.jpeg" alt="removetoboot" position="center" caption="" titlePosition="center" width="650">}}
+{{< img src="guidedstorage.jpeg" alt="guided storage" caption="" class="border-0" >}}
 
 Skip through the ***Storage configuration*** menu. Select continue at the ***Confirm destructive action*** prompt.
 
 Next, set up the ***Profile setup***. I just called mine miner for my name, server's name, and username. Be sure to pick a *secure* password. Not the same one that you use for everything else.
 
-{{<figure src="/images/tutorial/profilesetup.jpeg" alt="removetoboot" position="center" caption="" titlePosition="center" width="650">}}
+{{< img src="profilesetup.jpeg" alt="profile setup" caption="" class="border-0" >}}
 
 At the ***SSH Setup***, make sure that the Install OpenSSH server is checked. Leave the rest at default. I don't import my SSH identity.
 
-{{<figure src="/images/tutorial/sshsetup.jpeg" alt="removetoboot" position="center" caption="" titlePosition="center" width="650">}}
+{{< img src="sshsetup.jpeg" alt="ssh setup" caption="" class="border-0" >}}
 
 ***Featured Server Snaps***, leave all of these blank.
 
@@ -63,8 +63,8 @@ Finally, you will be greeted at the ***Installing system*** menu. It'll take a w
 
 Press ***reboot now*** to finish the installation. It will give you a prompt in scary red letters: ***[FAILED] Failed unmounting /cdrom.*** Remove the flash drive, **AND THE DISPLAY CABLE FROM THE GPU** and press enter to reboot.
 
-{{<figure src="/images/tutorial/removetoboot.jpeg" alt="removetoboot" position="center" caption="" titlePosition="center" width="650">}}
+{{< img src="removetoboot.jpeg" alt="remove to boot" caption="" class="border-0" >}}
 
-Give it a minute, or two, or three to set up everything. It is it's first boot, afterall.
+Give it a minute, or two, or three to set up everything. It is its first boot after all.
 
 Now you can get rid of that pesky keyboard and monitor, and put the computer in a place to heat your house, or garage.

@@ -36,8 +36,10 @@ git clone https://github.com/NikolaiTeslovich/minerwrangler.git
 && cd minerwrangler && chmod +x install1.sh && sudo ./install1.sh
 ```
 
-{{<figure src="/images/wrangler1.gif" alt="terminalgif" position="center" caption="" titlePosition="center" width="650">}}
+{{< imgtest src="wrangler1.gif" alt="ssh setup" caption="" class="border-0" >}}
 
+<!-- {{<figure src="/images/wrangler1.gif" alt="terminalgif" position="center" caption="" titlePosition="center" width="650">}}
+-->
 After your rig reboots it will disconnect. SSH into it again and run the second install script. **Select lightdm as the default display manager**:
 
 {{< btn-copy text="cd minerwrangler && sudo ./install2.sh" >}}
