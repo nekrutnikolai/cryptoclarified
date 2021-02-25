@@ -4,7 +4,7 @@ description: "A story of my involvement in crypto mining"
 lead: "I started mining crypto in August 2017"
 date: 2021-02-25T14:12:53-05:00
 lastmod: 2021-02-25T14:12:53-05:00
-draft: false
+draft: true
 weight: 50
 images: []
 contributors: ["Nikolai Nekrutenko"]
