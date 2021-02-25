@@ -10,5 +10,7 @@ images: []
 
 {{< img src="minerwrangler.png" alt="MinerWrangler" caption="<em>Get it? It's headless!</em>" class="border-0" >}}
 
-<p class="btn btn-primary btn-lg px-4 mb-2" href="https://github.com/NikolaiTeslovich/minerwrangler"
-role="button">GitHub</p>
+<p>
+  <a class="btn btn-primary btn-lg px-4 mb-2" href="https://github.com/NikolaiTeslovich/minerwrangler"
+  role="button">GitHub</a>
+</p>
