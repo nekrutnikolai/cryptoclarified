@@ -9,4 +9,9 @@ images: []
 
 Creator of CryptoClarified. A cryptocurrency advocate and miner since 2017. Currently a non-degree student at PSU.
 
-[Website](https://nnekrut.netlify.app/) [GitHub](https://github.com/NikolaiTeslovich)
+<p>
+  <a class="btn btn-primary btn-lg px-4 mb-2" href="https://github.com/NikolaiTeslovich"
+  role="button">GitHub</a>
+  <a class="btn btn-primary btn-lg px-4 mb-2" href="https://nnekrut.netlify.app/"
+  role="button">Website</a>
+</p>
