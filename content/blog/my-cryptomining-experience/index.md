@@ -18,7 +18,7 @@ contributors: ["Nikolai Nekrutenko"]
 
 **The only thing that I regret**, is stopping mining. I don't exactly remember why I stopped, probably because I lost interest due to the crash.
 
-{{< img src="oldnicehash.jpeg" alt="MinerWrangler logo" caption="NiceHash in 2017 on a GTX 1080. That's around $20/day!" class="border-0" >}}
+{{< img src="oldnicehash.jpeg" alt="MinerWrangler logo" caption="NiceHash in 2017 on a GTX 1080. That's around $20/day today!" class="border-0" >}}
 
 **Fast forward to the winter of 2019-2020**, right before the Coronavirus pandemic took the world by a surprise. I decided to give crypto another chance after reading [The Bullish Case for Bitcoin](https://vijayboyapati.medium.com/the-bullish-case-for-bitcoin-6ecc8bdecc1)—a phenomenal read by the way. I went back to my old trusted method of NiceHash and Coinbase for a couple of weeks until I decided that I was sick of Windows 10. I was sick of stupid updates, the goddamn pop-up notifications that would cause me to crash my plane in WarThunder, and just the general clunky user interface. Plus, I was slowly moving away from gaming as my interest in RC flight and Raspberry Pis took over. Ubuntu, here I come!
 
