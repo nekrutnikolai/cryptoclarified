@@ -33,5 +33,3 @@ contributors: ["Nikolai Nekrutenko"]
 {{< img src="rx5700xt.jpeg" alt="MinerWrangler logo" caption="A Red Devil RX 5700 XT mining that ETH." class="border-0" >}}
 
 **So to this day**, I have a GTX 1080, and a recently acquired RTX 2080 mining ETH with *MinerWrangler*, two RX 580's, and a RX 5700 XT mining ETH sadly using HiveOS, although it works for now. *I still haven't figured out how to use AMD drivers headlessly.* However, I might switch the GTX 1080 to RVN as recently, the popularity of the project has gone up by a lot!
-
-**Who knows, maybe I'll major in Blockchain development**—I find crypto fascinating and see potential in a decentralized future.
