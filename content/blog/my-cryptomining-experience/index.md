@@ -10,7 +10,7 @@ images: []
 contributors: ["Nikolai Nekrutenko"]
 ---
 
-**On a GTX 1080**—still a very good card today—with my "gaming PC" on NiceHash. That was when Bitcoin was worth about $4k. At the time, I was just a freshman in high school looking to make a quick buck, essentially free money with my parents paying for the electricity—I was after all heating the basement. I was only slightly interested in cryptocurrencies at the time, occasionally looking at the prices on [CoinGecko](https://www.coingecko.com/en) and re-partitioning my, at the time, Coinbase portfolio into a bit of ETH and LINK during the otherwise boring English class—except for when we watched Romeo and Juliet 1968.
+**On a GTX 1080**—still a very good card today—with my "gaming PC" on NiceHash. That was when Bitcoin was worth about $4k. At the time, I was just a freshman in high school looking to make a quick buck, essentially free money with my parents paying for the electricity—I was after all heating the basement. I was only slightly interested in cryptocurrencies at the time, occasionally looking at the prices on [CoinGecko](https://www.coingecko.com/en) and re-partitioning my, at the time, Coinbase portfolio into a bit of ETH and LINK in 9th grade English class.
 
 {{< img src="firstminingrig.jpeg" alt="MinerWrangler logo" caption="My strange but functional setup and first rig. Featuring an Intel NUC and Razer Core housing the GTX 1080" class="border-0" >}}
 
