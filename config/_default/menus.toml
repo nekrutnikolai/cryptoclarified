@@ -41,3 +41,13 @@
   name = "License"
   url = "/LICENSE"
   weight = 10
+
+[[footer]]
+  name = "Privacy Policy"
+  url = "/LICENSE"
+  weight = 10
+
+[[footer]]
+  name = "Terms and Conditions"
+  url = "/LICENSE"
+  weight = 10
