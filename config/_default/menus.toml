@@ -7,8 +7,8 @@
 [[docs]]
   name = "Starting Out"
   weight = 60
-  identifier = "docs"
-  url = "/docs/starting/"
+  identifier = "starting out"
+  url = "/docs/"
 
 [[main]]
   name = "Docs"
@@ -56,15 +56,10 @@
 
 [[footer]]
   name = "License"
-  url = "/LICENSE"
+  url = "/license"
   weight = 10
 
 [[footer]]
   name = "Privacy Policy"
-  url = "/LICENSE"
-  weight = 10
-
-[[footer]]
-  name = "Terms and Conditions"
-  url = "/LICENSE"
+  url = "/privacypolicy"
   weight = 10
