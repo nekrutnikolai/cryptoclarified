@@ -9,6 +9,8 @@ images: []
 
 **Copyright (c) 2021 Nikolai Nekrutenko**
 
+**TLDR**: You can do whatever you please with our code, however we aren't responsible for anything that may happen if you do. 
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
