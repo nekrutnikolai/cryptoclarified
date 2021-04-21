@@ -13,3 +13,7 @@ draft: false
   <a class="btn btn-primary btn-lg px-4 mb-2" href="https://github.com/NikolaiTeslovich/minerwrangler"
   role="button">GitHub</a>
 </p>
+
+<p>
+  MinerWrangler is the ultimate bundle of bash scripts to start crypto mining.
+</p>
