@@ -1,18 +1,24 @@
-[[docs]]
+[[minerwrangler]]
   name = "MinerWrangler"
-  # weight = 60
+  weight = 60
   identifier = "minerwrangler"
-  url = "/docs/minerwrangler/"
+  url = "/minerwrangler/"
 
-#[[main]]
-  #name = "MinerWrangler"
-  #url = "/docs/minerwrangler/"
-  #weight = 10
+[[docs]]
+  name = "Starting Out"
+  weight = 60
+  identifier = "docs"
+  url = "/docs/starting/"
 
 [[main]]
   name = "Docs"
   url = "/docs/"
   weight = 10
+
+[[main]]
+  name = "Jargon"
+  url = "/jargon/"
+  weight = 1
 
 [[main]]
   name = "Blog"

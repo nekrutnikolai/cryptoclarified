@@ -7,7 +7,7 @@ lastmod: 2021-02-10T17:07:23-05:00
 draft: false
 images: []
 menu:
-  docs:
+  minerwrangler:
     parent: "minerwrangler"
 weight: 999
 toc: true

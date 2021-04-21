@@ -7,7 +7,7 @@ titleAddition = "Cryptocurrency explained in simple terms"
 description = "Cryptocurrency explained in simple terms"
 
 ## Open Graph + Twitter Cards
-images = ["doks.png"]
+# images = ["doks.png"]
 # twitterSite = "henkverlinde"
 # twitterCreator = "henkverlinde"
 # facebookAuthor = "verlinde.henk"
